@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace AlgorytmLiu
+namespace Liu
 {
 	public partial class AddTask : UserControl
 	{
@@ -16,7 +16,7 @@ namespace AlgorytmLiu
 		private List<Task> _tasks;
 
 		#endregion Field
-		
+
 		#region Contructor
 
 		public AddTask(List<Task> _tasks)

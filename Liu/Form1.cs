@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace AlgorytmLiu
+namespace Liu
 {
 	public partial class Form1 : Form
 	{
@@ -37,7 +37,7 @@ namespace AlgorytmLiu
 			Controls.Add(add);
 		}
 
-		private void btnCalculate_Click(object sender, EventArgs e)
+		private void btnCalculation_Click(object sender, EventArgs e)
 		{
 			if (_tasks.Any())
 			{
@@ -121,7 +121,7 @@ namespace AlgorytmLiu
 			return taskOrder;
 		}
 
-		private void button1_Click(object sender, EventArgs e)
+		private void btnTestTasks_Click(object sender, EventArgs e)
 		{
 			_tasks.Add(new Task(1, 1, 0, 2));
 			_tasks.Add(new Task(2, 2, 0, 5));
